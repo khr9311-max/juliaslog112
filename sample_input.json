@@ -1,0 +1,81 @@
+{
+  "title": "유난히 조용한 밤, 수고한 나에게",
+  "bgmAudio": "assets/bgm_ambient.mp3",
+  "bgmVolume": 0.12,
+  "scenes": [
+    {
+      "sceneId": 1,
+      "durationInSeconds": 7.3667,
+      "imageSource": "assets/test/scene_01.png",
+      "narrationAudio": "assets/test/narration_01.mp3",
+      "subtitles": [
+        {
+          "text": "오늘 하루도 정말 고생",
+          "startMs": 104,
+          "endMs": 1680
+        },
+        {
+          "text": "많았어요.",
+          "startMs": 1694,
+          "endMs": 3540
+        },
+        {
+          "text": "가만히 숨을 고르는 이",
+          "startMs": 3560,
+          "endMs": 5109
+        },
+        {
+          "text": "시간.",
+          "startMs": 5122,
+          "endMs": 6107
+        }
+      ]
+    },
+    {
+      "sceneId": 2,
+      "durationInSeconds": 6.9667,
+      "imageSource": "assets/test/scene_02.png",
+      "narrationAudio": "assets/test/narration_02.mp3",
+      "subtitles": [
+        {
+          "text": "무거운 마음은 모두",
+          "startMs": 104,
+          "endMs": 1422
+        },
+        {
+          "text": "내려놓고, 온전히 나만을",
+          "startMs": 1436,
+          "endMs": 3555
+        },
+        {
+          "text": "위한 온기를 느껴보세요.",
+          "startMs": 3569,
+          "endMs": 5708
+        }
+      ]
+    },
+    {
+      "sceneId": 3,
+      "durationInSeconds": 5.7667,
+      "imageSource": "assets/test/scene_03.png",
+      "narrationAudio": "assets/test/narration_03.mp3",
+      "subtitles": [
+        {
+          "text": "당신은 존재하는",
+          "startMs": 104,
+          "endMs": 1205
+        },
+        {
+          "text": "것만으로도 충분히",
+          "startMs": 1218,
+          "endMs": 2659
+        },
+        {
+          "text": "잘해내고 있으니까요.",
+          "startMs": 2672,
+          "endMs": 4526
+        }
+      ]
+    }
+  ]
+}

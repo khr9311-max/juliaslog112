@@ -1,0 +1,36 @@
+{
+  "name": "juliaslog-renderer",
+  "version": "1.0.0",
+  "description": "쥴리아스로그 감성 쇼츠 자동화 렌더링 파이프라인 (Remotion + Gemini + edge-tts)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "studio": "remotion studio src/index.ts",
+    "build": "remotion bundle src/index.ts",
+    "render": "tsx render.ts",
+    "typecheck": "tsc --noEmit",
+    "pipeline": "python -u -m pipeline.run",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.526",
+    "@remotion/cli": "^4.0.526",
+    "@remotion/google-fonts": "^4.0.526",
+    "@remotion/media-utils": "^4.0.526",
+    "@remotion/renderer": "^4.0.526",
+    "@remotion/transitions": "^4.0.526",
+    "@remotion/zod-types": "^4.0.526",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "^4.0.526",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  }
+}

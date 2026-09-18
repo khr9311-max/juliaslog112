@@ -1,0 +1,7 @@
+node_modules/
+out/
+.cache/
+# 생성 에셋(이미지·나레이션)은 재생성 가능하고 용량이 크므로 커밋하지 않는다
+public/assets/
+!public/assets/.gitkeep
+*.log
